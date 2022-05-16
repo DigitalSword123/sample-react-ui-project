@@ -15,7 +15,7 @@ module.exports = function(props) {
           >
             Learn React
           </a>
-        </header>
+        </header>   
       </div>
     );
   };
