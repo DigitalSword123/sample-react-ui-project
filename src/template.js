@@ -1,5 +1,7 @@
+import React from "react";
 import logo from './logo.svg';
-module.exports = function(props) {
+class template extends React.Component {
+  render()  {
     return (
         <div className="App">
         <header className="App-header">
@@ -18,4 +20,7 @@ module.exports = function(props) {
         </header>   
       </div>
     );
-  };
+  }
+  }
+
+  export default template;
