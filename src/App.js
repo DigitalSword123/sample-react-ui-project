@@ -2,6 +2,9 @@ import "./App.css";
 import { useState } from "react";
 import Axios from "axios";
 
+
+// https://employee-node-data.herokuapp.com
+
 function App() {
   const [name, setName] = useState("");
   const [age, setAge] = useState(0);
@@ -74,7 +77,7 @@ function App() {
   return (
     <div className="App">
       <div className="information">
-        <label>Name:</label>
+        <label>Name-new:</label>
         <input
           type="text"
           onChange={(event) => {
@@ -88,7 +91,7 @@ function App() {
             setAge(event.target.value);
           }}
         />
-        <label>Country:</label>
+        <label>Country-new:</label>
         <input
           type="text"
           onChange={(event) => {
