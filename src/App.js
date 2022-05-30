@@ -77,21 +77,21 @@ function App() {
   return (
     <div className="App">
       <div className="information">
-        <label>Name-new:</label>
+        <label>Name-new-2:</label>
         <input
           type="text"
           onChange={(event) => {
             setName(event.target.value);
           }}
         />
-        <label>Age:</label>
+        <label>Age-new-1:</label>
         <input
           type="number"
           onChange={(event) => {
             setAge(event.target.value);
           }}
         />
-        <label>Country-new:</label>
+        <label>Country-new-2:</label>
         <input
           type="text"
           onChange={(event) => {
